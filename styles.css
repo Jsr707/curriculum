@@ -15,26 +15,37 @@
     width: 66.6%;
     margin: 0 auto;
     padding: 40px 20px;
+    background-color: rgba(12,0,0,);
   }
   
   header {
+    display: block;
     background-color: #3b5998;
     color: white;
-    padding: 20px 0;
-    position: sticky;
+    padding: 0;
+   /*  position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 999; */
   }
   
   header h1 {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
-  
+  .nav {
+    background-color: #333;
+    color: white;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
   nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 10px;
+    
   }
   
   nav a {
@@ -47,11 +58,11 @@
     text-decoration: underline;
   }
   
-  #inicio img {
+  header img {
     width: 150px;
     border-radius: 50%;
     display: block;
-    margin: 0 auto 20px;
+    /* margin: 0 auto 20px; */
   }
   
   .parallax {
@@ -67,7 +78,16 @@
     background-color: rgba(0, 0, 0, 0.5); /* Transparente */
     border-radius: 10px;
   }
-  
+  #formacion {
+    background-color: #b3bfda;
+    border-radius: 5px;
+    border: 1px black solid;
+  }
+  .formacion {
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px blac;
+  }
   h2 {
     margin-bottom: 10px;
     font-size: 1.8em;
