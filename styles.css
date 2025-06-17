@@ -152,10 +152,10 @@
   
 .habilidades {
   display: flex;
-  justify-content: center;
   width: auto;
-  height: 180px;
-  padding: 10px;
+  justify-content: center;
+  height: 160px;
+  padding: 5px;
   border: 1px solid black;
   margin: 5px;
   flex-direction: column;
@@ -169,9 +169,13 @@
   width: 180px; 
   display: flex;;
 }
-.hab h3 {
+.hab h4 {
   align-self: center;
   color: black;
+}
+#contacto p{
+  color: black;
+  font-size: 20px;
 }
 
 
