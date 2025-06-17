@@ -94,7 +94,13 @@
     border-radius: 10px;
   }
   #experiencia {
-    padding: px;
+    padding: 10px;
+  }
+  #exp {
+    padding: 30px;
+  }
+  #exp ol {
+    list-style: none;
   }
   .order {
     padding: 10px;
@@ -110,15 +116,22 @@
     padding: 10px;
     border: 1px black;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
   }
-  .confeccion1, .confeccion2 {
-    display: flex;
-    flex-direction: row;
+  
+  .formacion li {
     border: black solid 1px;
-    width: 25%;
-    padding: 5px;
-    list-style: none;
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  #idiomas {
+    background-color: #1b1b1b80;
+    color: white;
   }
   h2 {
     margin-bottom: 10px;
@@ -128,21 +141,39 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    display: flex; 
+    justify-content: center;
   }
   
-  table, th, td {
+  th, td {
     border: 1px solid #ccc;
     padding: 8px;
   }
   
 .habilidades {
   display: flex;
-  flex-wrap: wrap;
-  
-  width: 20%;
+  justify-content: center;
+  width: auto;
+  height: 180px;
+  padding: 10px;
   border: 1px solid black;
+  margin: 5px;
+  flex-direction: column;
 }
+.icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+.hab {
+  width: 180px; 
+  display: flex;;
+}
+.hab h3 {
+  align-self: center;
+  color: black;
+}
+
 
   footer {
     background-color: #3b5998;
