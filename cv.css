@@ -7,10 +7,7 @@ body {
     background-color: cornflowerblue;
     margin: 0;
 }
-.container {
-  width: 66.6%;
-  margin: 0 auto;
-}
+
 .parallax {
   /* Imagen de fondo */
   background-image: url('https://images.wallpaperscraft.com/image/single/laptop_programming_code_205768_3840x2160.jpg');
@@ -108,8 +105,9 @@ nav li:hover {
     gap: 20px; /* Opcional: espacio entre artículos */
     justify-content: space-evenly; /* o flex-start, según tu preferencia */
   }
-  .formacion {
-    height: 500px;
+  ..formacion {
+    margin: 50px;
+    padding: 50px;
   }
   article{
     width: 25%;
