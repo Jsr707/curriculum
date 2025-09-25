@@ -41,7 +41,7 @@
     margin-bottom: 0px;
   }
   .nav {
-    background-color: #333;
+    background-color: #b6b6b6;
     color: white;
     padding: 0;
     position: sticky;
@@ -154,24 +154,26 @@
   }
   
 .habilidades {
-  display: flex;
-  width: auto;
-  justify-content: center;
-  height: 160px;
   padding: 5px;
   border: 1px solid black;
-  margin: 5px;
-  flex-direction: column;
+  margin: 0 auto;
+  width: 150px;
+}
+
+.hab {
+  display: flex;
+  
+}
+#habilidades{
+  background-color: #ffffff;
+  
 }
 .icon {
   width: 80px;
   height: 80px;
   margin: 0 auto;
 }
-.hab {
-  width: 180px; 
-  display: flex;;
-}
+
 .hab h4 {
   align-self: center;
   color: black;
@@ -194,7 +196,11 @@
   padding-left : 025px;
   height: 30px;
 }
-
+.carousel-item{
+  align-self: center; 
+  width: 25%;
+  height: 25%;
+}
 .form {
   width: 50%;
   display: flex;
